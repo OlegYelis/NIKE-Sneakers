@@ -1,0 +1,19 @@
+.header {
+  padding: 21px 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .button {
+    background-color: transparent;
+
+    &:hover,
+    &:focus,
+    &.current {
+      background-color: transparent;
+    }
+  }
+}
